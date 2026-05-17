@@ -56,7 +56,3 @@ Cualquier actualización importante de esta política se comunicará mediante un
 
 12. Contacto
 Para cualquier consulta relacionada con la privacidad, el usuario puede contactar con el desarrollador a través de la página de la aplicación en Google Play.
-
-Nota para Play Console: Necesitas alojar este texto en una URL pública (por ejemplo en una página de GitHub Pages, Google Sites o similar) y pegar ese enlace en el campo "URL de política de privacidad" de la ficha de la aplicación.
-
-Claude Sonnet 4.6 • 1x
