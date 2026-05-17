@@ -1,2 +1,2 @@
-# politica-privacidad-biblioteca-legal-nica
-Política de privacidad oficial de la aplicación Biblioteca Legal NICA
+# Politica-Privacidad-Control-Medicamentos
+Política de privacidad oficial de la aplicación Control de Medicamentos
