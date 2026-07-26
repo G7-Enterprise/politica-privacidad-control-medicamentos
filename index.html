@@ -3,116 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - Control Medicamentos</title>
+    <title>Política de Privacidad — Control de Medicamentos</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 40px auto; color: #222; max-width: 850px; padding: 0 20px; }
-        h1 { color: #0056b3; border-bottom: 2px solid #eaeaea; padding-bottom: 10px; }
-        h2 { color: #333; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-        p, li { text-align: justify; font-size: 15px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
-        th, td { border: 1px solid #dddddd; text-align: left; padding: 12px; }
-        th { background-color: #f4f6f9; color: #333; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-        .update-date { color: #666; font-style: italic; margin-bottom: 30px; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px auto; max-width: 800px; color: #333; padding: 0 20px; }
+        h1, h2 { color: #2c3e50; }
+        h1 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
+        ul { margin-bottom: 20px; }
     </style>
 </head>
 <body>
-
-    <h1>Política de Privacidad — Control Medicamentos</h1>
-    <p class="update-date">Última actualización: 16 de mayo de 2026</p>
+    <h1>Política de Privacidad — Control de Medicamentos</h1>
+    <p><strong>Última actualización:</strong> 26 de julio de 2026</p>
 
     <h2>1. Responsable</h2>
-    <p>Esta aplicación es desarrollada y mantenida por su autor individual. No existe una empresa ni organización detrás de ella.</p>
+    <p>Esta aplicación es desarrollada y mantenida por su autor individual. No existe una empresa corporativa de recolección de datos detrás de ella.</p>
 
     <h2>2. Qué datos almacena la aplicación</h2>
-    <p>Control Medicamentos almacena únicamente en el dispositivo del usuario los siguientes datos:</p>
+    <p>Control de Medicamentos almacena <strong>únicamente de forma local en el dispositivo</strong> del usuario los siguientes datos para la gestión de perfiles:</p>
     <ul>
-        <li><strong>Datos del paciente:</strong> nombre, apellidos, fecha de nacimiento, peso, estatura, enfermedades y prescripciones médicas.</li>
-        <li><strong>Medicamentos:</strong> nombre, dosis, horarios, alarmas y existencias.</li>
+        <li><strong>Datos de los pacientes (Múltiples perfiles):</strong> nombre, apellidos, fecha de nacimiento, peso, estatura, enfermedades y prescripciones médicas.</li>
+        <li><strong>Medicamentos:</strong> nombre, dosis, horarios, alarmas y existencias del inventario local.</li>
         <li><strong>Signos vitales:</strong> presión arterial, frecuencia cardíaca, glucemia y temperatura.</li>
         <li><strong>Citas médicas y facultativos:</strong> títulos, fechas, recordatorios y datos del profesional.</li>
-        <li><strong>Historial de vacunación:</strong> nombre de la vacuna, dosis aplicadas y próximas dosis.</li>
         <li><strong>Informes médicos:</strong> título, descripción y archivos adjuntos (imágenes o PDF almacenados localmente).</li>
-        <li><strong>Actividad física:</strong> tipo de actividad, pasos, distancia, calorías, duración y ruta GPS.</li>
-        <li><strong>Pedidos de medicamentos:</strong> historial de pedidos y carrito pendiente de confirmar.</li>
     </ul>
 
     <h2>3. Dónde se almacenan los datos</h2>
-    <p>Todos los datos se guardan de forma local en el dispositivo, en una base de datos cifrada. La aplicación no envía ningún dato a servidores externos ni a terceros.</p>
-    <p>Las copias de seguridad que el usuario genera manualmente se guardan en el destino que el propio usuario elige (almacenamiento del dispositivo, Google Drive personal, etc.). El contenido de esas copias es responsabilidad del usuario.</p>
+    <p>Todos los datos se guardan de forma estricta y local en el dispositivo, en una base de datos cifrada. La aplicación <strong>no envía</strong> ningún dato médico, personal o de uso a servidores externos, bases de datos en la nube ni a terceros.</p>
 
-    <h2>4. Uso de la ubicación (GPS)</h2>
-    <p>La aplicación solicita acceso a la ubicación únicamente durante el seguimiento de actividad física (caminatas o ciclismo) y solo mientras la sesión está activa. Los datos de ruta se almacenan localmente y nunca se transmiten.</p>
-
-    <h2>5. Integración con Health Connect</h2>
-    <p>La aplicación puede leer datos de actividad física de Google Health Connect (pasos, distancia, sesiones de ejercicio) si el usuario concede el permiso correspondiente. Estos datos se usan exclusivamente para mostrar el historial en pantalla y no se comparten con terceros.</p>
-
-    <h2>6. Notificaciones y alarmas</h2>
-    <p>La aplicación usa notificaciones locales del dispositivo para recordatorios de tomas, citas, vacunas y avisos de stock. No se usan servicios de mensajería en la nube (FCM u otros) para enviar notificaciones.</p>
-
-    <h2>7. Suscripción y pagos</h2>
-    <p>La gestión de suscripciones se realiza a través de Google Play Billing. La aplicación no recibe ni almacena datos de tarjetas de crédito ni información bancaria. La política de facturación de Google aplica para todas las transacciones.</p>
-
-    <h2>8. Permisos solicitados</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Permiso</th>
-                <th>Motivo de uso en la aplicación</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>POST_NOTIFICATIONS</strong></td>
-                <td>Mostrar recordatorios de tomas y citas.</td>
-            </tr>
-            <tr>
-                <td><strong>SCHEDULE_EXACT_ALARM</strong></td>
-                <td>Establecer alarmas precisas para los recordatorios de medicamentos.</td>
-            </tr>
-            <tr>
-                <td><strong>USE_FULL_SCREEN_INTENT</strong></td>
-                <td>Desplegar alertas críticas sobre la pantalla bloqueada para tomas urgentes.</td>
-            </tr>
-            <tr>
-                <td><strong>ACCESS_FINE_LOCATION</strong></td>
-                <td>Registrar la ruta GPS exclusivamente durante la actividad física elegida por el usuario.</td>
-            </tr>
-            <tr>
-                <td><strong>FOREGROUND_SERVICE</strong></td>
-                <td>Garantizar el correcto seguimiento continuo de la actividad en segundo plano.</td>
-            </tr>
-            <tr>
-                <td><strong>READ_MEDIA_IMAGES</strong></td>
-                <td>Permitir al usuario seleccionar y adjuntar imágenes locales a sus informes médicos.</td>
-            </tr>
-            <tr>
-                <td><strong>RECEIVE_BOOT_COMPLETED</strong></td>
-                <td>Reprogramar y restablecer las alarmas de las tomas tras un reinicio del dispositivo.</td>
-            </tr>
-            <tr>
-                <td><strong>health.READ_STEPS / READ_EXERCISE</strong></td>
-                <td>Sincronizar y leer la actividad física registrada en Health Connect.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h2>9. Menores de edad</h2>
-    <p>La aplicación no está dirigida a menores de 13 años y no recopila datos de menores de forma consciente.</p>
-
-    <h2>10. Derechos del usuario</h2>
-    <p>El usuario tiene control total sobre sus datos:</p>
+    <h2>4. Permisos solicitados</h2>
     <ul>
-        <li>Puede exportar toda la información mediante la función de copia de seguridad.</li>
-        <li>Puede eliminar todos los datos desinstalando la aplicación o borrando los datos de la app desde los ajustes del dispositivo.</li>
-        <li>No existe cuenta de usuario ni registro en servidores externos, por lo que no hay datos que solicitar a terceros.</li>
+        <li><strong>Notificaciones y Alarmas:</strong> Para garantizar la precisión de los recordatorios de tomas de medicamentos y citas médicas.</li>
+        <li><strong>Acceso a Archivos/Multimedia:</strong> Para permitir al usuario seleccionar y adjuntar imágenes o documentos a sus informes médicos locales.</li>
+    </ul>
+    <p><em>Nota: La aplicación no solicita, rastrea ni utiliza permisos de ubicación (GPS) ni de monitorización de actividad física.</em></p>
+
+    <h2>5. Suscripciones y Pagos (Paddle)</h2>
+    <p>La gestión de licencias o compras de la aplicación se realiza de forma externa y segura a través de la pasarela de pagos <strong>Paddle</strong>. "Control de Medicamentos" no recibe, procesa ni almacena datos de tarjetas de crédito ni información bancaria en ningún momento. Toda la facturación está sujeta a los rigurosos términos de seguridad y privacidad de Paddle.</p>
+
+    <h2>6. Menores de edad</h2>
+    <p>La aplicación puede ser utilizada para gestionar la medicación de menores por parte de sus padres o tutores legales a través del sistema de múltiples perfiles. Sin embargo, la aplicación no recopila datos de menores de forma automática ni los transmite a internet.</p>
+
+    <h2>7. Derechos del usuario</h2>
+    <p>El usuario tiene control total y absoluto sobre sus datos:</p>
+    <ul>
+        <li>Puede exportar, modificar o eliminar toda la información directamente desde su dispositivo en cualquier momento.</li>
+        <li>Al no existir cuentas de usuario en servidores externos, no hay datos en la nube que el usuario deba solicitar borrar a terceros.</li>
     </ul>
 
-    <h2>11. Cambios en esta política</h2>
-    <p>Cualquier actualización importante de esta política se comunicará mediante una nueva versión de la aplicación publicada directamente en Google Play.</p>
-
-    <h2>12. Contacto</h2>
-    <p>Para cualquier consulta relacionada con la privacidad, el usuario puede contactar con el desarrollador a través de la página de soporte de la aplicación en la tienda de Google Play.</p>
-
+    <h2>8. Contacto y Soporte</h2>
+    <p>Para cualquier consulta relacionada con la privacidad, el manejo de datos o soporte técnico, el usuario puede contactar al desarrollador a través del correo electrónico: <strong>controlmedicamentos@gmail.com</strong></p>
 </body>
 </html>
